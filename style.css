@@ -1,0 +1,38 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+  }
+  
+  .login-container, .admin-container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  #loginForm {
+    margin-bottom: 15px;
+  }
+  
+  .navigation {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0;
+  }
+  
+  .navigation li {
+    margin-bottom: 5px;
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    color: black;
+  }
+  
